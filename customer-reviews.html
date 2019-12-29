@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Reviews - Everhart Steeple Cleaning</title>
+    <link rel="stylesheet" href="website-style.css" />
+    <link href="jquery.bxslider.css" rel="stylesheet">
+    <link href="jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <script src="js12/jquery.bxSlider.min.js"></script>
+    <script src="garand-sticky-73b0fbe/jquery.sticky.js"></script>
+    <script src="website_javascript.js"></script>
+</head>
+<body>
+    <!-- Create header to hold logo and navigation bar-->
+    <header class="header">
+        <!--Click on logo will return to home page-->
+        <a href="home-page.html">
+            <img class="logoPic" src="images/steeple-logo-generic.png" alt="Church Steeple Logo">
+        </a>
+        <!-- Divider to hold the links to each page in the website -->
+        <nav>
+            <div class="headLinks">
+                <a href="about-us.html">ABOUT US</a>
+                <a href="customer-reviews.html">CUSTOMER REVIEWS</a>
+                <a href="contact-us.html">CONTACT US</a>
+                <a href="services-provided.html">SERVICES</a>
+            </div>
+        </nav>
+        <!--Create a line under bar-->
+        <div class="underline"></div>
+    </header>
+
+    <main>
+        <!--Banner Picture, Customer Review Heading, then Content-->
+        <div id="customerReviewBanner"></div>
+        <h1 class="introHead">Customer Reviews</h1>
+
+        <!--Separate each block with a horizontal line-->
+        <hr>
+        <!--Customer Review bxslider-->
+        <ul id="slider">
+            <li><img src="images/review1.png" alt="review 1"></li>
+            <li><img src="images/review2.png" alt="review 2"></li>
+            <li><img src="images/review3.png" alt="review 3"></li>
+        </ul>
+        <p id="pager"></p>
+
+    </main>
+
+    <footer>
+        <!-- Divider to create whitespace -->
+        <div class="whitespace"></div>
+
+        <!-- Company info section of footer -->
+        <div class="companyInfo">
+            <h4>EVERHART STEEPLE SERVICES</h4>
+            <ul>
+                <li class="companyInfoList">Everhart Ln,<br>Sawmills, NC 28638</li>
+                <li class="companyInfoList">(828)217-5413</li>
+                <li class="companyInfoList">Ceverhartce@gmail.com</li>
+            </ul>
+        </div>
+        <!-- Sitemap section of footer -->
+        <div class="sitemap">
+            <h4>SITEMAP</h4>
+            <ul>
+                <li class="sitemapLinks"><a href="home-page.html">Home</a></li>
+                <li class="sitemapLinks"><a href="about-us.html">About Us</a></li>
+                <li class="sitemapLinks"><a href="customer-reviews.html">Customer Reviews</a></li>
+                <li class="sitemapLinks"><a href="contact-us.html">Contact Us</a></li>
+                <li class="sitemapLinks"><a href="services-provided.html">Services Provided</a></li>
+            </ul>
+        </div><br>
+        <!-- Validation Links -->
+        <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> <br>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+    </footer>
+</body>
+</html>

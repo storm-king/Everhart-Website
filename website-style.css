@@ -1,0 +1,358 @@
+/*
+    Style sheet for the entire website.
+ */
+
+/*
+    Ensure everything stretches to fit entire page.
+*/
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0px;
+}
+
+/*
+    Set the styling for the main portion of the page
+ */
+main{
+    background-color: lightgrey;
+    height: 100%;
+    padding-top: 1px;
+    padding-bottom: 20px;
+}
+
+/*
+    Make all h2 headers have the same font, be centered, and bold
+ */
+h2 {
+    font: 22px Avenir, sans-serif;
+    text-align: center;
+    color: #1b2751;
+    font-weight: bold;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+/*
+    Make h4 headers be slightly smaller and a different color
+ */
+h4 {
+    color: #F3F4D1;
+    margin-left: 40px;
+    font: 18px Avenir, sans-serif;
+}
+
+/*
+    Remove bullet points from lists, edit font
+ */
+ul li {
+    list-style: none;
+    color: white;
+    font: 15px Avenir, sans-serif;
+}
+
+/*
+    Styling the links in the footer
+ */
+footer ul li a{
+    color: white;
+    font: 15px Avenir, sans-serif;
+    text-decoration: none;
+}
+
+/*
+    Make the footer at the bottom of the page with same color as header
+ */
+footer {
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #1b2751;
+}
+
+/*
+    Change color of links on hover
+ */
+footer ul li a:hover{
+    color: darkgrey;
+}
+
+/*
+    Style the navigation bar
+ */
+nav{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+    float: right;
+}
+
+/*
+    Horizontal Lines styling
+ */
+hr {
+    border: 1px solid darkgrey;
+    width: 80%;
+}
+
+/*
+    Text area alignment
+ */
+textarea {
+    vertical-align: bottom;
+}
+
+/*
+    Change font of labels in the form
+ */
+form p {
+    font: 18px Avenir, sans-serif;
+}
+
+/*
+    Formatting header class
+ */
+.header {
+    overflow: hidden;
+    background-color: #1b2751;
+    padding: 0;
+    margin: 0;
+}
+
+/*
+    Formatting logo picture
+ */
+.logoPic {
+    width: 10%;
+}
+
+/*
+    Formatiing header div
+ */
+.headLinks {
+    vertical-align: top;
+    display: inline-block;
+}
+
+/*
+    Formatting links in the header
+ */
+.headLinks a {
+    float: left;
+    color: white;
+    text-align: right;
+    padding: 20px;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px;
+    margin-left: 10px;
+    font: 18px Avenir, sans-serif;
+}
+
+/*
+    Change color of links on hover
+ */
+.headLinks a:hover {
+    color: darkgrey;
+}
+
+/*
+    Intro Headers for every page formatting
+ */
+.introHead{
+    font-family: Avenir, sans-serif;
+    color: #1b2751;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+/*
+    Content paragraph for each page formatting
+ */
+.contentParagraph{
+    width: 70%;
+    margin: auto;
+}
+
+/*
+    Content paragraph font formatting
+ */
+.contentParagraph p{
+    font: 18px Avenir, sans-serif;
+}
+
+/*
+    Format paragraphs so they appear to the right of the images
+ */
+.contentParagraphNextToImage p{
+    font: 18px Avenir, sans-serif;
+    float: right;
+    margin-right: 20%;
+    width: 30%;
+}
+
+/*
+    Create whitespace for the footer
+ */
+.whitespace {
+    width: 100%;
+    height: 1px;
+    background-color: lightgrey;
+}
+
+/*
+    Format the sitemap in the footer
+ */
+.sitemap{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20%;
+}
+
+/*
+    Formatting the links in the sitemap
+ */
+.sitemapLinks{
+    margin-top: 10px;
+}
+
+/*
+    Formatting the company info div in the footer
+ */
+.companyInfo {
+    display: inline-block;
+    margin-left: 20%;
+}
+
+/*
+    Formatting the ul in the footer for the company info
+ */
+.companyInfoList {
+    margin-top: 10px;
+}
+
+/*
+    Formatting for the pictures in the main body of the pages
+ */
+.contentPic {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px;
+}
+
+/*
+    Formatting for each side of the free quote form
+ */
+.leftOfForm, .rightOfForm{
+    display: inline-block;
+}
+
+/*
+    Formatting for the submit button at the bottom of the form
+ */
+.submitButton {
+    background-color: #1b2751;
+    border: none;
+    border-radius: 12px;
+    color: #F3F4D1;
+    padding: 15px 32px;
+    margin-left: 44%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+/*
+    Change color of button and cursor on hover
+ */
+.submitButton:hover {
+    color: darkgrey;
+    cursor: pointer;
+}
+
+/*
+    Formatting for each of the customer review divs
+ */
+.reviewBlock {
+    width: 70%;
+    display: block;
+    background-color: #F3F4D1;
+    margin: auto;
+}
+
+/*
+    Formatting for the font within the customer review blocks
+ */
+.reviewBlock p{
+    font: 25px Avenir, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+/*
+    Formatting for all banner pictures
+ */
+.bannerPic {
+    width: 100%;
+}
+
+/*
+    Formatting for the icons on the home page that represent services
+ */
+.servicePic {
+    width: 25%;
+    float: left;
+    margin-left: 15%;
+    margin-bottom: 20px;
+}
+
+/*
+    Formatting to make the div extend to the bottom of the page
+ */
+#paintDesc {
+    margin-bottom: 43%;
+}
+
+/*
+    Formatting for the estimate form (next two blocks)
+ */
+#estimateFormDiv {
+    width: 100%;
+    margin-left: 20%;
+}
+
+#estimateForm {
+    display: inline-block;
+}
+
+/*
+    Formatting for the services provided and their links (next three blocks)
+ */
+#services {
+    margin: auto;
+    text-align: center;
+}
+
+#services a {
+    padding: 15px 15px;
+    width: 80%;
+}
+
+#services a img:hover {
+    background-color: white;
+    opacity: 0.5;
+}
+
+#slider {
+    list-style:none !important;
+    margin:0 !important;
+    padding:10px !important;
+}
+
+

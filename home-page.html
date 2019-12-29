@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Everhart Steeple Cleaning</title>
+    <link rel="stylesheet" href="website-style.css" />
+    <link href="jquery.bxslider.css" rel="stylesheet">
+    <link href="jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <script src="js12/jquery.bxSlider.min.js"></script>
+    <script src="garand-sticky-73b0fbe/jquery.sticky.js"></script>
+    <script src="website_javascript.js"></script>
+</head>
+<body>
+    <!-- Create header to hold logo and navigation bar-->
+    <header class="header">
+        <!--Click on logo will return to home page-->
+        <a href="home-page.html">
+            <img class="logoPic" src="images/steeple-logo-generic.png" alt="Church Steeple Logo">
+        </a>
+        <!-- Divider to hold the links to each page in the website -->
+        <nav>
+            <div class="headLinks">
+                <a href="about-us.html">ABOUT US</a>
+                <a href="customer-reviews.html">CUSTOMER REVIEWS</a>
+                <a href="contact-us.html">CONTACT US</a>
+                <a href="services-provided.html">SERVICES</a>
+            </div>
+        </nav>
+        <!--Create a line under bar-->
+        <div class="underline"></div>
+    </header>
+
+    <main>
+        <!-- Before and after picture, then Head/subhead, then content-->
+        <div id="homePic"></div>
+        <h1 class="introHead">Welcome to Everhart Steeple Services!</h1>
+        <h2>Caldwell County's premier power washing and exterior cleaning company.</h2>
+        <!--Brief intro to company-->
+        <div class="contentParagraph">
+            <p>For many years, we have been supplying our customers with cleaning services that have transformed
+                many of God's houses back to the original vision the leaders had for the church. We take pride in each
+                unique project and voluntarily go above and beyond your satisfaction. </p>
+        </div>
+
+        <hr>
+
+        <!--Services provided section-->
+        <h2>Services We Provide</h2>
+        <div class="contentParagraph">
+            <p>Our company was built on cleaning and updating churches. To accomplish this we offer two different
+                services. Click to learn more about the services we provide.</p>
+        </div>
+        <!--Clicking on pictures takes user to specific part of services page-->
+        <div id="services">
+            <a href="services-provided.html#PowerWash">
+                <img class="servicePic" src="images/power-washing-service.jpg" alt="Power Washing Service">
+            </a>
+            <a href="services-provided.html#Paint">
+                <img class="servicePic" src="images/painting-service.jpg" alt="Painting Service">
+            </a>
+        </div>
+
+        <hr>
+
+        <!-- Free Estimate form, will send email to owner when submit is pushed-->
+        <h2>Free Estimate</h2>
+        <div class="contentParagraph">
+            <p>Please fill out the form below if you would like to receive a free estimate.</p>
+        </div>
+        <div id="estimateFormDiv">
+            <form id="estimateForm">
+                <p class="leftOfForm">Name:</p>
+                <input id="name" class="leftOfForm" type="text" name="name">
+                <p class="rightOfForm">Company:</p>
+                <input id="company" class="rightOfForm" type="text" name="company"><br>
+                <p class="leftOfForm">Email:</p>
+                <input id="email" class="leftOfForm" type="email" name="email">
+                <p class="rightOfForm">Comments:</p>
+                <textarea id="comments" form="estimateForm" name="comments" rows="5" cols="50"></textarea><br>
+                <p class="leftOfForm">Phone:</p>
+                <input id="phone" class="leftOfForm" type="tel" name="phone">
+                <p class="rightOfForm">Date:</p>
+                <input id="datePicker" class="rightOfForm" type="text" size="10"><br>
+                <input type="submit" class="submitButton" id="submit" value="Submit" formmethod="post">
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <!-- Divider to create whitespace -->
+        <div class="whitespace"></div>
+
+        <!-- Company info section of footer -->
+        <div class="companyInfo">
+            <h4>EVERHART STEEPLE SERVICES</h4>
+            <ul>
+                <li class="companyInfoList">Everhart Ln,<br>Sawmills, NC 28638</li>
+                <li class="companyInfoList">(828)217-5413</li>
+                <li class="companyInfoList">Ceverhartce@gmail.com</li>
+            </ul>
+        </div>
+        <!-- Sitemap section of footer -->
+        <div class="sitemap">
+            <h4>SITEMAP</h4>
+            <ul>
+                <li class="sitemapLinks"><a href="home-page.html">Home</a></li>
+                <li class="sitemapLinks"><a href="about-us.html">About Us</a></li>
+                <li class="sitemapLinks"><a href="customer-reviews.html">Customer Reviews</a></li>
+                <li class="sitemapLinks"><a href="contact-us.html">Contact Us</a></li>
+                <li class="sitemapLinks"><a href="services-provided.html">Services Provided</a></li>
+            </ul>
+        </div><br>
+        <!-- Validation Links -->
+        <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> <br>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+    </footer>
+</body>
+</html>
